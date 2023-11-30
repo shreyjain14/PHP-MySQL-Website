@@ -1,0 +1,45 @@
+.nav {
+    background-color: darkblue;
+    padding: 15px;
+    position: fixed;
+    top: 20px;
+    left: 2%;
+    width: 93%;
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    justify-content: center;
+    z-index: 1;
+    border: solid 2px black;
+    font-size: 20px;
+
+}
+
+.name {
+    position: sticky;
+    text-align: center;
+    top: 30px;
+    z-index: 5;
+    color: rgb(0, 255, 4);
+}
+
+.main-body {
+    position: relative;
+    padding-top: 100px;
+}
+
+a {
+    color: rgb(0, 255, 4);
+    text-decoration: none;
+}
+
+svg {
+    height: 25px;
+    z-index: 100;
+}
+
+body {
+    background-image: url(assets/pelican_nebula.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

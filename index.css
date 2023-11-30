@@ -1,0 +1,57 @@
+
+
+table {
+    border: 0px;
+}
+
+
+@keyframes RLrotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.item {
+    z-index: 0;
+    padding: 50px;
+    border: solid black 1px;
+    border-radius: 20%;
+    height: 200px;
+    width: 200;
+    background-color: yellow;
+    transition: transform .1s ease;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.pog {
+    height: 100%;
+    color: black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+.name {
+    position: sticky;
+    text-align: center;
+    top: 30px;
+    z-index: 5;
+    color: rgb(0, 255, 4);
+}
+
+table, td, th {
+    padding: 25px;
+}
